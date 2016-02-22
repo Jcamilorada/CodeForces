@@ -1,11 +1,11 @@
-package table_bowling;
+package codeforces.table_bowling;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import table_bowling.TableBowling.Score;
+import codeforces.table_bowling.TableBowling.Score;
 
 /**
  * @author Juan Rada

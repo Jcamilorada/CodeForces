@@ -1,4 +1,4 @@
-package amr_and_music;
+package codeforces.amr_and_music;
 
 import java.io.BufferedReader;
 import java.io.IOException;

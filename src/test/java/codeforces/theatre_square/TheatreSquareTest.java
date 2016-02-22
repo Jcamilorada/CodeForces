@@ -1,4 +1,4 @@
-package theatre_square;
+package codeforces.theatre_square;
 
 import static org.junit.Assert.assertEquals;
 

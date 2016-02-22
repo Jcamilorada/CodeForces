@@ -1,4 +1,4 @@
-package way_too_long_words;
+package codeforces.way_too_long_words;
 
 import java.io.BufferedReader;
 import java.io.IOException;

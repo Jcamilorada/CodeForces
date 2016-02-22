@@ -1,4 +1,4 @@
-package table_bowling;
+package codeforces.table_bowling;
 
 import java.io.BufferedReader;
 import java.io.IOException;

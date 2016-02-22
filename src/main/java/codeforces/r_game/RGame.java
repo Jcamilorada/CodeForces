@@ -1,4 +1,4 @@
-package r_game;
+package codeforces.r_game;
 
 import java.io.BufferedReader;
 import java.io.IOException;

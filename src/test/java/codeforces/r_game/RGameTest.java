@@ -1,4 +1,4 @@
-package r_game;
+package codeforces.r_game;
 
 import static org.junit.Assert.assertEquals;
 

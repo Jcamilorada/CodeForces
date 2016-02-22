@@ -1,4 +1,4 @@
-package theatre_square;
+package codeforces.theatre_square;
 
 import java.io.*;
 import java.util.*;
