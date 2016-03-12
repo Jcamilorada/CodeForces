@@ -1,3 +1,1 @@
-# CodeForces
-
-CodeForces execersites resolution. 
+# Algoritms, data structures and problem solutions.
