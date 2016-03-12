@@ -6,7 +6,7 @@ package data_structures.stack;
  *
  * @author Juan Rada
  */
-public class StackArray <T>
+public class StackArray <T> implements IStack<T>
 {
     private Object[] dataArray = new Object[20];
     private int currentIndex = 0;
@@ -20,7 +20,7 @@ public class StackArray <T>
         currentIndex ++;
     }
 
-    public T pop(T data)
+    public T pop()
     {
         return (T)dataArray[currentIndex--];
     }

@@ -5,10 +5,11 @@ package data_structures.stack;
  *
  * @author Juan Rada
  */
-public class Stack <T>
+public class Stack <T> implements IStack<T>
 {
     private Node<T> head;
 
+    @Override
     public void push(T element)
     {
         Node<T> tmp = head;
@@ -16,6 +17,7 @@ public class Stack <T>
         head.nextNode = tmp;
     }
 
+    @Override
     public T pop()
     {
         Node<T> tmp = head;
