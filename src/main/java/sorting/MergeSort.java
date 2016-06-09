@@ -29,7 +29,8 @@ public class MergeSort
         int j = 0;
         while (i < arrayA.length || j < arrayB.length)
         {
-            if (i < arrayA.length && (j == arrayB.length || arrayA[i] < arrayB[j]))
+            if (i < arrayA.length &&
+                (j == arrayB.length || arrayA[i] < arrayB[j]))
             {
                 array[i + j] = arrayA[i];
                 i++;

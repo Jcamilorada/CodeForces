@@ -24,14 +24,10 @@ public class QuickSort
         while (i <= j)
         {
             while (array[i] < pivot)
-            {
                 i ++;
-            }
 
             while (array[j] > pivot)
-            {
                 j --;
-            }
 
             if (i <= j)
             {
@@ -42,16 +38,10 @@ public class QuickSort
         }
 
         if (start < j)
-        {
-            // from start to j
             quicksort(start, j, array);
-        }
 
         if (end > i)
-        {
-            // from i to end
             quicksort(i, end, array);
-        }
     }
 
     private void swap(int[] array, int i, int j)
